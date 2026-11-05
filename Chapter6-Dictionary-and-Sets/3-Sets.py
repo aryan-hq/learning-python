@@ -1,4 +1,4 @@
-# Set is a built-in Python data type used to store a collection of unique items.
+# Set is a built-in Python data type used to store a collection of unique items. Like Sets in Maths.
 
 # Stores only unique elements; duplicate values are automatically ignored.
 # The set itself is mutable (you can add/remove items), but its elements must be immutable.
@@ -16,7 +16,7 @@ print(subjects) # But output will not contain the duplicate "IT" and the order m
 null_set = set() # CORRECT way to create an empty set
 print(type(null_set))
 
-# Sets can contain different data types (strings, ints, booleans)
+# Sets can contain different data types (strings, ints, booleans etc.)
 # Note: True and 1 are considered the same value in sets, and False and 0 are the same.
 mixed_set = {"jeff", 89.4, True, 1, 0, False}
 print(mixed_set) # 1 and False will be removed as duplicates of True and 0
